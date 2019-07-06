@@ -1,0 +1,8 @@
+{
+  "name": "@gem-mine/ui-theme-color",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ant-design/colors": "^3.1.0",
+    "webpack-theme-color-replacer": "^1.2.15"
+  }
+}
