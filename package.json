@@ -1,6 +1,6 @@
 {
   "name": "@gem-mine/ui-theme-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "babel ./src --out-dir ./lib"
   },
