@@ -1,8 +1,20 @@
 {
   "name": "@gem-mine/ui-theme-color",
   "version": "1.0.0",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
   "dependencies": {
     "@ant-design/colors": "^3.1.0",
     "webpack-theme-color-replacer": "^1.2.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0"
   }
 }

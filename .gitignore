@@ -32,3 +32,6 @@ yarn-error.log*
 .vscode
 .cache-loade
 .history
+
+lib/
+package-lock.json
