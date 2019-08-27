@@ -10,7 +10,7 @@ function changeSelector(selector, prefixCls) {
     case `.${prefixCls}-btn.active,.${prefixCls}-btn:active`:
       return `.${prefixCls}-btn.active:not(.${prefixCls}-btn-primary),.${prefixCls}-btn:active:not(.${prefixCls}-btn-primary)`
     default:
-      return selector
+      return `body ${selector}`
   }
 }
 
