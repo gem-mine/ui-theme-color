@@ -1,4 +1,4 @@
-const ThemeColorReplacer = require('webpack-theme-color-replacer')
+const ThemeColorReplacer = require('@gem-mine/webpack-theme-color-replacer')
 const { getSerials } = require('./helper')
 
 function changeSelector(selector, prefixCls) {
