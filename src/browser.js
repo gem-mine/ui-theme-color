@@ -1,4 +1,4 @@
-const client = require('webpack-theme-color-replacer/client')
+const client = require('@gem-mine/webpack-theme-color-replacer/client')
 const { getSerials } = require('./helper')
 
 function changeColor(color) {
